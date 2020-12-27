@@ -7,7 +7,6 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 
 import auth from './routes/auth';
-import DbRoutes from './routes/testdata-routes';
 import userRoutes from './routes/user';
 
 const corsOption = {
@@ -30,11 +29,11 @@ app.use(
         unset: 'destroy',
     })
 );
+
 app.use(passport.initialize());
 app.use(passport.session());
 
 app.use('/auth', auth);
-app.use(DbRoutes);
 app.use('/user', userRoutes);
 
 app.use(express.static(path.join(__dirname, '../public')));
