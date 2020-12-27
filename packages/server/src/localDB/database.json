@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "t45AiwidW",
+      "uuid": "6383f84e-b511-44c5-a835-3ece1d781fa8",
+      "name": "Edgar",
+      "username": "Katharina_Bernier",
+      "password": "$2a$10$5PXHGtcsckWtAprT5/JmluhR13f16BL8SIGhvAKNP.Dhxkt69FfzW",
+      "createdAt": "2019-08-27T23:47:05.637Z",
+      "modifiedAt": "2020-05-21T11:02:22.857Z"
+    },
+    {
+      "id": "J7gbJ6TBw",
+      "uuid": "a0982808-fac6-42df-9e7b-26dec16cc8e2",
+      "name": "Mahmood",
+      "username": "Mahmood",
+      "password": "$2a$10$stPNp3UJ4lPBM3OjopjU3ewZk1G.oNNZzzpMjvkkxFhGOOecr7RuK",
+      "createdAt": "2020-12-27T19:05:27.871Z",
+      "modifiedAt": "2020-12-27T19:05:27.871Z"
+    }
+  ]
+}
