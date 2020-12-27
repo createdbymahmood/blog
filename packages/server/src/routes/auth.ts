@@ -43,12 +43,7 @@ router.post(
     '/login',
     passport.authenticate('local'),
     (req: Request, res: Response): void => {
-        if (req.body.remember) {
-            req.session!.cookie.maxAge = 24 * 60 * 60 * 1000 * 30; // Expire in 30 days
-        } else {
-            req.session!.cookie.expires = undefined;
-        }
-
+        req.session.cookie.maxAge = 24 * 60 * 60 * 1000 * 30; // Expire in 30 days
         res.send({ user: req.user });
     }
 );
@@ -62,7 +57,6 @@ router.post('/logout', (req: Request, res: Response): void => {
 });
 
 router.get('/checkAuth', (req: Request, res: Response) => {
-    /* istanbul ignore next */
     if (!req.user) {
         res.status(401).json({ error: 'User is unauthorized' });
     } else {
