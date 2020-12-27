@@ -1,0 +1,19 @@
+{
+    "name": "@blog/server",
+    "version": "1.0.0",
+    "description": "The serverside of the project",
+    "author": "Mahmud Bagheri <createdbymahmood@gmail.com>",
+    "homepage": "",
+    "license": "ISC",
+    "main": "src/index.ts",
+    "scripts": {
+        "dev": "nodemon src/server.ts"
+    },
+    "dependencies": {
+        "ts-node": "9.1.1",
+        "typescript": "4.1.3"
+    },
+    "devDependencies": {
+        "nodemon": "2.0.6"
+    }
+}
