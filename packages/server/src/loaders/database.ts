@@ -31,5 +31,5 @@ export const seedDatabase = () => {
     return;
 };
 
-// seedDatabase();
+seedDatabase();
 export default db;
