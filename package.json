@@ -5,7 +5,8 @@
         "packages/*"
     ],
     "scripts": {
-        "start": "lerna run start --parallel"
+        "start": "lerna run start --parallel",
+        "server:dev": "yarn workspace @blog/server run dev"
     },
     "devDependencies": {
         "lerna": "^3.22.1",
