@@ -1,8 +1,9 @@
 import express from 'express';
 import { DbSchema } from '../models/dbSchema';
-import { getAllForEntity, seedDatabase } from '../loaders/database';
+import { seedDatabase } from '../loaders/database';
 import { isValidEntityValidator } from '../validators';
 import { validateMiddleware } from '../middlewares/validate';
+import { getAllForEntity } from '../controllers/global';
 const router = express.Router();
 
 // Routes

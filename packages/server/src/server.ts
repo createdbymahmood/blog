@@ -8,6 +8,7 @@ import cors from 'cors';
 
 import auth from './routes/auth';
 import userRoutes from './routes/user';
+import postRoutes from './routes/post';
 
 const corsOption = {
     origin: 'http://localhost:3000',
@@ -34,7 +35,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use('/auth', auth);
-app.use('/user', userRoutes);
+app.use('/users', userRoutes);
+app.use('/posts', postRoutes);
 
 app.use(express.static(path.join(__dirname, '../public')));
 

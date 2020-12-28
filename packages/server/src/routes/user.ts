@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import { createUser } from '../loaders/database';
+import { createUser } from '../controllers/user';
 import { validateMiddleware } from '../middlewares/validate';
 import { User } from '../models/user';
 import { isUserValidator, userFieldsValidator } from '../validators';

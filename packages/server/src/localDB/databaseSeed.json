@@ -9,5 +9,16 @@
             "createdAt": "2019-08-27T23:47:05.637Z",
             "modifiedAt": "2020-05-21T11:02:22.857Z"
         }
+    ],
+    "posts": [
+        {
+            "id": "t45AiwidW",
+            "uuid": "6383f84e-b511-44c5-a835-3ece1d781fa8",
+            "title": "The true story of life",
+            "username": "Mahmood",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "createdAt": "2019-08-27T23:47:05.637Z",
+            "modifiedAt": "2020-05-21T11:02:22.857Z"
+        }
     ]
 }
