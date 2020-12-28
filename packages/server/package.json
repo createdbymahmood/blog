@@ -7,7 +7,9 @@
     "license": "ISC",
     "main": "src/index.ts",
     "scripts": {
-        "dev": "nodemon src/server.ts"
+        "dev": "nodemon src/server.ts",
+        "build": "tsc",
+        "start": "ts-node src/server.ts"
     },
     "dependencies": {
         "bcryptjs": "2.4.3",
